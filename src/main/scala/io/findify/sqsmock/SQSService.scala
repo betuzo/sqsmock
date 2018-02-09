@@ -8,7 +8,7 @@ import akka.stream.ActorMaterializer
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives._
 import com.typesafe.config.ConfigFactory
-import io.findify.sqsmock.actions.{CreateQueueWorker, ReceiveMessageWorker, SendMessageWorker}
+import io.findify.sqsmock.actions.{CreateQueueWorker, ReceiveMessageWorker, SendMessageWorker, GetQueueUrlWorker}
 import io.findify.sqsmock.messages._
 import io.findify.sqsmock.model.{Message, Queue}
 
